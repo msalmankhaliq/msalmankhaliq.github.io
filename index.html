@@ -211,8 +211,8 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 
 									<h4>Actions</h4>
 									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
+										<li><a href="sendmail.php" class="button primary">Default</a></li>
+										<li><a href="sendmail.php" class="button">Default</a></li>
 									</ul>
 									<ul class="actions stacked">
 										<li><a href="#" class="button primary">Default</a></li>
@@ -409,15 +409,18 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 							<h2>Get in touch</h2>
 						</header>
 						<div class="content">
-							<p>Feel free to contact me for any question or discussion regarding your project. If you want to follow my work, reach me on <a href="https://www.linkedin.com/in/msalmankhaliq/"><strong>LinkedIn.</strong> Looking forward to have a great discussion with you.</p>
+							<p>Feel free to contact me for any question or discussion regarding your project. If you want to follow my work, reach me on <ahref="https://www.linkedin.com/in/msalmankhaliq/"><strong>LinkedIn.</strong></a> Looking forward to have a great discussion with you.</p>
 							<form action="sendemail.php" method="post"> 
 								<div class="fields">
+									<label for="name">Name:</label>
 									<div class="field half">
 										<input type="text" name="name" id="name" required placeholder="Name" />
 									</div>
+									<label for="email">Email:</label>
 									<div class="field half">
 										<input type="email" name="email" id="email" required placeholder="Email" />
 									</div>
+									<label for="message">Message:</label>
 									<div class="field">
 										<textarea name="message" id="message" required placeholder="Message" rows="7"></textarea>
 									</div>
